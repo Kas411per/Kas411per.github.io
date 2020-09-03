@@ -1,3 +1,4 @@
 # Kas411per.github.io
 
-- [Min opskrift](Opskrifter.html)
+- [Min Opskrift](Opskrifter.html)
+- [Min Profil](Profil.html)
