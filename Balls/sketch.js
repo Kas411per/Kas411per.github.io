@@ -1,5 +1,5 @@
 
-let balls = new Array(20);
+let balls = new Array(40);
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -24,7 +24,7 @@ class Ball {
   constructor(x, y) {
     this.x = x;
     this.y = y;
-    this.r = random(5, 100)
+    this.r = random(20,20)
 
     const sMax = 20
     this.speedX = random(-sMax, sMax)
@@ -66,10 +66,10 @@ class RandomBouncingBall extends BouncingBall {
     const blue =  random(0, 255)
     this.color = color(red, green, blue)
   }
-
   render() {
     strokeWeight(this.sw);
     fill(this.color)
     super.render()
   }
+  
 }
