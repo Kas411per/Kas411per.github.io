@@ -1,5 +1,5 @@
 
-let balls = new Array(40);
+let balls = new Array(300);
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -59,7 +59,7 @@ class RandomBouncingBall extends BouncingBall {
 
   constructor(x, y) {
     super(x, y)
-    this.sw = random(1, 10);
+    this.sw = random(1,10);
 
     const red =  random(0, 255)
     const green =  random(0, 255)
