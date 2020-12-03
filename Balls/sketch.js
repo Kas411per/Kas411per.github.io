@@ -1,5 +1,5 @@
 
-let balls = new Array(300);
+let balls = new Array(100);
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
